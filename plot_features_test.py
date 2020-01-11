@@ -16,7 +16,7 @@ data = pd.DataFrame(data=d,columns=col)
 
 y = np.hstack((np.repeat('Não focal',len(d)//2),np.repeat('Focal',len(d)//2)))
 data['Type'] = y
-
+#teste
 
 # Boxplot -----------------------------------------------
 fig = plt.figure()
